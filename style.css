@@ -48,10 +48,10 @@ body {
 
 #principal div a {
 
-    font-family: var(--fonte-dnc);
+    font-family: var(--fonte-padrao);
     font-weight: 600;
     font-size: 25px;
-    color: white;
+    color: #FFFFFF;
     text-decoration: none;
 
 }
@@ -182,14 +182,14 @@ form input::placeholder {
 }
 
 
-input [type="checkbox"] {
+input[type="checkbox"] {
 
     transform: scale(1.7);
 }
 
-input [type="submit"] {
+input[type="submit"] {
     background-color: rgba(12, 112, 242, 0.9);
-    width: 100px;
+    width: 100%;
     height: 56px;
     font-size: 32px;
     color: white;
